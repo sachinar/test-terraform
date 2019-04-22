@@ -1,0 +1,7 @@
+# Example from Ansible Playbooks
+- hosts: 13.232.252.221 
+  tasks:
+- name: copy file to aws instance
+  copy:
+    src: hello.txt
+    dest: /home/ubuntu/
